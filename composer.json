@@ -1,0 +1,27 @@
+{
+    "name": "memclutter/yii2-timeline",
+    "type": "yii2-extension",
+    "description": "Bootstrap 3 timeline in Yii2",
+    "keywords": ["yii2", "timeline", "bootstrap", "css"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/memclutter/yii2-timeline/issues",
+        "wiki": "https://github.com/memclutter/yii2-timeline/wiki",
+        "source": "https://github.com/memclutter/yii2-timeline/wiki"
+    },
+    "authors": [
+        {
+            "name": "Memory Clutter",
+            "email": "memclutter@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "memclutter\\yii\\timeline\\": "src/"
+        }
+    }
+}
